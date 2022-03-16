@@ -1,2 +1,2 @@
 #!/bin/bash -xv
-rm *.aux *.log *.out *.tex
+rm *.aux *.log *.out
