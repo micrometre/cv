@@ -1,55 +1,34 @@
 ## Linux system administrator/devops Engineer
 #### Henok Wehibe
-#### Contact Details
+### Contact Details
 - henokwehibe@gmail.com
 - https://github.com/micrometre
 - https://micrometre.co.uk
 
-##### Summary
-
- .  DevOps Engineer from a Linux background with 5+ years experience.
- .  Setting up devlopment infrastructure on AWS and DigitalOcean.
- .  Iplementing Private Conatainer Registery and  Version Control.
- .  Hosting Webisites, blogs and Webapps
- .  Devloping  Wordpress themes devlopment .
- .  Creating CI/CD work flows for Webisites, blogs and Webapps
- .  Virtualization and containerization with Kubernetes, KVM, VirtualBox, Vagrant and LXD/LXC containers.
- .  Load balancing and SSL Termination With HAProxy with containers and vitual machine.
- .  Hosting Webisites, blogs and Webapps.
- .  Monitoring System Authentication & log files.
+### Summary
+###  DevOps/Devloper from a Linux background with 5+ years experience.
 
 
-Technical Skill Set: 
+Research, learn, design and development of linux based software while helping community projects and small business with their IT needs by providing advice and hosting utilising Open Source technology to assist in running required activities.
 
-. Languages:             :Javascript and Shell scripting.
-. Version Control:       :Git 
-. Automation/Build:      :Docker and  Ansible, 
-. Web Server:            :Apache & Nginx
-. Databases:             :MongoDB and MySQL.
-. Virtualization:        :Kvm and VirtualBox.
-. Platforms:             :Linux and Android.
-
-Technical Skill Set:
-
-• Operating Systems:		: Linux , Windows & Android
-• Version Control:		: GIT
-• Automation/Build Tools	: Docker & Ansible
-• Languages			: Javascript & Shell scripting
-• Virtualization		: KVM 
+### Duties include:
 
 
+- Created git based work ﬂow for deploying code on AWS and DigitalOcean 
+- hosting Webisites, blogs and Webapps.
+- Iplementing Private Conatainer Registery and  Version Control with Gite and Amazon S3.
+- Virtualization and containerization with Kubernetes, KVM, VirtualBox, Vagrant and LXD/LXC containers.
+- Load balancing and SSL Termination With HAProxy aand Nginx.
 
+- Protection Against Brute Force Attacks with (Fail2Ban) for server side and client side.    
+- Monitoring System Authentication & log files with with git based work flow.
 
+- Migrating outdated websites to modern way to build Websites with Next.js and gatsby.js
+- Developed a CRUD web app  for OpenAlpr using nodejs,expressjs and mongodb for car park . 
+- Seting up secure login with SSH for access cloud provider.
+Performed integration testing of the individual build components hosted on cloud services (Digital Ocean).
+Hosting secure, GDPR compliant, accesable websites for small business and startups.
 
-### From 2015 to present.
-#### London based tech startup.
-Responsiblities:
-
-Using DigitalOcean and AWS  to  setup hosting for developers blogers and gamers.
-
-Creating/pipelines workflows using Version Control and Docker 
-
-Seting up and mainting HAProxy for hosting multiple domians and SSL Termination.
 
 
 
