@@ -1,4 +1,4 @@
-## Linux system administrator/devops Engineer
+###  DevOps/Devloper from a Linux background with 5+ years experience.
 #### Henok Wehibe
 ### Contact Details
 - henokwehibe@gmail.com
@@ -6,29 +6,27 @@
 - https://micrometre.co.uk
 
 ### Summary
-###  DevOps/Devloper from a Linux background with 5+ years experience.
-
 
 Research, learn, design and development of linux based software while helping community projects and small business with their IT needs by providing advice and hosting utilising Open Source technology to assist in running required activities.
 
 ### Duties include:
 
 
-- Created git based work ﬂow for deploying code on AWS and DigitalOcean 
-- hosting Webisites, blogs and Webapps.
-- Iplementing Private Conatainer Registery and  Version Control with Gite and Amazon S3.
-- Virtualization and containerization with Kubernetes, KVM, VirtualBox, Vagrant and LXD/LXC containers.
-- Load balancing and SSL Termination With HAProxy aand Nginx.
+- Created Asnible, docker, Nginx Letsencrypt based work ﬂow for deploying code on AWS and DigitalOcean.
 
-- Protection Against Brute Force Attacks with (Fail2Ban) for server side and client side.    
-- Monitoring System Authentication & log files with with git based work flow.
+- Hosting secure, GDPR compliant, accesable websites for small business and startups.
 
 - Migrating outdated websites to modern way to build Websites with Next.js and gatsby.js
-- Developed a CRUD web app  for OpenAlpr using nodejs,expressjs and mongodb for car park . 
-- Seting up secure login with SSH for access cloud provider.
-Performed integration testing of the individual build components hosted on cloud services (Digital Ocean).
-Hosting secure, GDPR compliant, accesable websites for small business and startups.
 
+- Developed a CRUD web App  for OpenAlpr using nodejs,expressjs and mongodb. 
+
+- Performance testing of individual builds with Lighthouse and ApacheBench.
+- Seting up secure remote login with SSH.
+- Iplemented Private Version Control with Gitea. 
+- Setting up  KVM and  LXD  on Bare Matal.
+- Load balancing and SSL Termination With HAProxy and Nginx.
+- Protection Against Brute Force Attacks with (Fail2Ban) for server side and client side.    
+- Monitoring System Authentication & logs files with with git and crontab.
 
 
 
