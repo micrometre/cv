@@ -1,10 +1,3 @@
-
-Darren Boothe
-
-BT/EE Consumer
-2019 - date
-Role: SDET/Test Analyst
-Manual Testing
 Validating rules which are created, updated or deleted to the Pega decisioning platform perform as expected in various environments end 2 end within tight timeines.
 Tools Used:	Jira (for Kanban), Windows8.1, Citrix Receiver, Soap UI, SQL Developer, Oracle DB, Pega, Jira, DRAW.IO, Microsoft Snipping Tool, Word & Excel.
 Duties:
