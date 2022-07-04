@@ -21,7 +21,7 @@ _From 2016-2019_
 
 - Implemented Private Version Control with Gitea and  Rocket Chat team messaging for  automating tasks with webhooks and alerts for working in collaboration.
 
-- Designed and  Developed ANPR Parking Management webApp with OpenAlpr using Nodejs,Expressjs and Mongodb hosted on Ubuntu for capturing and managing car park entry and exit data.
+- Designed and  Developed ANPR Parking Management webApp with OpenAlpr using Nodejs,Expressjs and Mongodb for capturing and managing car park entry and exit data.
 
 - Providing IT support and advice for training, education, hardware, software and infrastructure needs to community projects and start-ups.
 
@@ -41,15 +41,12 @@ _From 2019-2022_
 4. Services &
 5. logs files 
 
-
 - Performed static testing of infrastructure design models and integration testing of the individual build components hosted on cloud services (Digital Ocean).
 
 - Research and tested suitable Operating Systems (LibreElec, Armbian, Ubuntu, etc.) for 64bit ARM S905X (M16) SOC’s used as a:
 Low build and running cost server solution.
 
-- Remastering Ubuntu/Linux distributions to install various clients and servers.
-
-- Setting up KVM, LXD, Vagrant and Virtual box for development and testing environment.
+- Remastering Ubuntu/Linux distributions to install various clients and servers, Building custom images using Packer, Vagrant  for development and testing environment.
 
 
 
