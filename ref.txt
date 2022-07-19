@@ -1,0 +1,97 @@
+Validating rules which are created, updated or deleted to the Pega decisioning platform perform as expected in various environments end 2 end within tight timeines.
+Tools Used:	Jira (for Kanban), Windows8.1, Citrix Receiver, Soap UI, SQL Developer, Oracle DB, Pega, Jira, DRAW.IO, Microsoft Snipping Tool, Word & Excel.
+Duties:
+Analysis and review of change request document to determine what is to be tested and how.
+Design methods for reliable and predictable comparison of data across environments.
+Creating test plans to convey the purpose, scope, test methods to deploy and estimate time required.
+Design and create test scenario documents which define pass criteria, test steps and expected responses.
+Describe the process for each test with step definitions for given requirements.
+Documentation of execution workflow, process's and decision paths with DRAW.IO for wireframe descriptions.
+Creating SQL queries and exporting the data with SQL Developer for Oracle DB to collect customer data relative to test requirements.
+Importing data into excel to filter retrieved data to meet test requirements.
+Creating XML requests for interaction with Pega via its API with Soap-UI.
+Validating XML responses from SOAP queries contain required data.
+Creating Test report documentation containing test evidence including queries used with screenshots of responses.
+Design and implement document layout improvements which improved readability.
+Automated Testing
+Designed and deployed an automated test platform upon BT's Enterprise Cloud platform to replicate the many manual steps for testing.
+Tools Used: Oracle Linux 7, Test-runner (Soap-UI), Docker, Git-Lab, Ubuntu20.04, Curl, Ruby, Rails 7 and BASH.
+Documented existing manual testing process’s to design a workflow for the automated  process.
+Used Soap-UI Test-runner within a container with BASH to automatically pull test data from the input branch in Git-Lab to execute, with responses pushed to the output branch of the repository.
+Designed scripts which analizee and filter received customer data to extract only the required  data.
+Designed scripts to create required XML for Soap testing based on customer data received.
+Included clear descriptions of process used in BASH scripts and documentation.
+Written in BASH, I created and documented several CLI menus (for use over SSH) which allow for the guided creation, configuration and management of various development and server environments without the need for code specific knowledge.
+Used rails 7 to provide a web interface for hosting designed tools to automate the manual processes above.
+Wrote reporting software to reliably execute API requests, capture XML responses, provide a summary of required filtered information and allow team to examine the returned data 70% faster than the manual process.
+Design and developed APIs with RAILS to input required data for executing various tests.
+Daily stand up scrum calls allows team to reflect and discuss progress and issues.
+Dev Ops
+Created development environments with Docker for JRE (Soap-UI Test-runner), Ruby on Rails, etc. routed via HAProxy to each container.
+Developing, managing and Maintaining BT cloud servers via created BASH Menus to:
+	-Execute server updates
+	-configure/edit HAProxy
+	-Access Docker container creation and management tools
+	-Install HTTPD
+	-Run preconfigured scripts to deploy desired servers within Docker containers
+	these BASH menu options are designed for simplicity and requires minimal user knowledge of the technologies listed.
+Designed and deployed a test development environment which allows colleagues to join my journey of discovery and provide feedback which we can design and implement into the next version.
+Developing with Ansible for ease of system configuration, resource management, scaling and deployment across numerous devices for created software environments.
+Configured routing several servers within Docker via a single IP address on a host via HAProxy.
+
+
+Research & Development
+Examine existing tooling and process with a view to remove manual handling of data and research new technologies and software which can offer improvements to workflow and efficiency.
+Research requirements, process, costs, software and configuration options involved with obtaining OL7 and windows 2016 cloud servers within BT.
+Research and utilize using Soap-Ui's Test-runner options with Ubuntu hosted upon a Docker container.
+Performed research with GraphQL on RAILS, setup, configuration and usage options.
+Research NIXOS within a virtual machine as an alternative to declarative deployment with Ansible.
+
+
+Micrometre (Community Project/Home Laboratory)
+Providing IT support and advice for training, education, hardware, software and infrastructure needs to community projects and start-ups.
+December 2014 to 2019
+Roles:
+Research, learn, design and development of linux based software while helping community projects and small business with their IT needs by providing advice and hosting utilising Open Source technology to assist in running required activities.
+Duties include:
+Construction and configuration of local and cloud Servers with remote administration, using SSH for access or via cloud provider console.
+Performed static testing of infrastructure design models and integration testing of the individual build components hosted on cloud services (Digital Ocean).
+Research and tested suitable Operating Systems (LibreElec, Armbian, Ubuntu, etc.) for 64bit ARM S905X (M16) SOC’s used as a:
+Low build and running cost server solution.
+Utilizing Docker for hosting applications such as Gitea, HAProxy, RoR, etc.
+A low cost Android desktop solution with the addition of a keyboard and mouse.
+Hosting secure, GDPR compliant, accesable websites for small business and startups.
+I created an interactive site using LXD (for a build environment), selenium-web driver, ruby and Sinatra upon an Ubuntu Host to create a search form for multiple agents which could identify specific job requirements and display all results within individual Firefox or chrome tabs for each agent searched.
+Designed and developed a BASH menu interface template used to perform numerous development related tasks, configuration, and more without repeatedly typing common commands.
+
+
+BT openreach
+2008 – 2019
+Roles: Precision Testing, Internal & External WAN Delivery, Surveying, network planning and training junior team members.
+Duties include:
+Provision of Local and Wide Area Network Ethernet Access services over fibre, for business and corporate clients as a team or as alone representing openreach on behalf of the Service Provider.
+Splicing and testing of up to 240 fibres within Data Centres, Exchanges, Cellular sites, cable chambers, boats and end user premises all types of internal and external networks CJ's, Nodes and Tie cables.
+Provision of blown fibre bundles both internally and externally between two or more locations.
+Manage relations with customers by giving progress updates, highlighting showstoppers and assisting Circuit Providers by providing details of missing requirements while investigating solutions to achieve completion on the day.
+Discover and analyze anomalies between provided delivery requirements and the current site condition with an on site survey.
+Collaborate with other areas of openreach such as network planning to gain clarification of requirements, report faulty/missing network infrastructure within the designated routes and update inaccurate records to assist future fibre provisions.
+Providing alternative routes and solutions to ensure on-time circuit delivery with details provided to the design planner of what has been changed.
+Investigate, develop and implement new ways of working to improve efficiency: Altering internal provision methods by blowing a fibre bundle into tubing before laying the cable. This avoids the use of an internal compressor and therefore removing its associated manual handling, mobility and power risks.
+Performed fault diagnosis on fibre circuits with just the distance to fault and network records, or with an OTDR (Optical Time Domain Reflectometer) in determining the type of fault, its location and the cause of the issue, as to reduce the possibility of fault repetition.
+Educating new employees and apprentices to openreach in best practice for service delivery of fibre circuits.
+
+
+Education
+2014	 	ISTQB Foundation course
+Learned the theories, methodologies and process of Quality Assurance & Manual Software Testing throughout the Software Development Life Cycle.
+
+1992 – 1994 	South Thames College Wandsworth London
+CGLI 224 part 1 Electronic Servicing               CREDIT+
+CGLI 224 part 2 Electronic Servicing               CREDIT+
+
+
+
+
+
+
+
