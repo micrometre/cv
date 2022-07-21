@@ -1,68 +1,120 @@
-\documentclass{cover} 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Henok Wehibe} % Your name
-\address{London UK} 
-\address{henokwehibe@gmail.com}
-\address{https://github.com/micrometre}
+\documentclass[11pt,a4]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+ \usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{tabularx}
+\hypersetup{colorlinks=true,urlcolor=black}
+\usepackage[11pt]{moresize}
+\usepackage{setspace}
+\usepackage[inline]{enumitem}
+\usepackage{ragged2e}
+\usepackage{anyfontsize}
+
+%%%% Set Margins
+\usepackage[margin=1cm]{geometry}
+
+%%%% Set Fonts
+
+%%%% Set Page Style
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%%%% Set URL Style
+\urlstyle{same}
+
+%%%% Set Indentation
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%%%% Set Secondary Color, Page Number Color, Footer Text
+\definecolor{UI_blue}{RGB}{32, 64, 151}
+\definecolor{HF_color}{RGB}{179, 179, 179}
+\rfoot{{\color{HF_color} \thepage \ of \ 1, Updated \today}}
+
+%%%% Set Heading Format
+\titleformat{\section}{
+\color{UI_blue} \scshape \raggedright \large 
+}{}{0em}{}[\vspace{-0.7cm} \hrulefill \vspace{-0.2cm}]
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  END OF "DO NOT TOUCH" REGION
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+
+
 
 \begin{document}
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  HEADER
+%%%%%%% --------------------------------------------------------------------------------------
+\begin{center}
+    \begin{minipage}[b]{0.24\textwidth}
+            \large \href{mailtwwwwwwwo:youremail@email.com}{}https://linkedin.com/in/henok-wehibe
+    \end{minipage}% 
+    \begin{minipage}[b]{0.4\textwidth}
+            \centering
+            {\Huge Henok Wehibe} \\ %
+            \vspace{0.1cm}
+            {\color{UI_blue} \Large{DevOps/Developer}} \\
+    \end{minipage}% 
+    \begin{minipage}[b]{0.24\textwidth}
+            \flushright \large
+            {\href{https://www.linkedin.com/in/link/}{https://linkedin.com/in/henok-wehibe} } \\
+            \href{https://Add_your_portfolio_here_}{}
+    \end{minipage}   
+    
+\vspace{-0.15cm} 
+{\color{UI_blue} \hrulefill}
+\end{center}
 
-\begin{rSection}{Work Experience}
-\begin{rSubsection}{MicrometreUK}{2018 - 2022}{}
-
-\item Developed continuous deployment pipeline using Ansible, Terraform and Packer on AWS. 
-\item Setting up Private Docker Registry  to reduce build times.  
-\item Integrating Jenkins with GitHub and Docker to set up Continuous Integration Pipelines.
-\item Installation and setting up kubernetes cluster with kubeadm, Kubespray and Mikrok8s. 
-\item Hosting and maintaining Gitea for private Source Code Management.
-\item Built a Pipeline for  Deploying code to DigitalOcean With GitHub Actions.
-\item Experience in Javascript Programming.
-\item Web Development using Node.js with frameworks Express.js, React.js and Next.js.
-\item Designed and Developed ANPR Parking Management webapp with OpenAlpr Expressjs and Mongodb.
-\end{rSubsection}
-\end{rSection}
-
-\begin{rSection}{Project}
-\begin{rSubsection}{Home Laboratory}{2015 - 2017}{}
-
-\item Construction and configuration of local Servers with remote administration.
-\item Research and tested suitable Operating Systems (LibreElec, Armbian, Ubuntu,
-etc.) for 64bit ARM S905X (M16) SOCs used as a: Low build and running cost
-server solution.
-\item Remastering Ubuntu/Linux distributions to install on desktops laptops and
-servers, Building custom images using Packer, Vagrant for development and
-testing environment.
-\item Configured KVM, Virtualbox, Proxmox and LXD for host machines to run
-multiple virtual machines (VMs).
-\item Utilizing HAProxy and Nginx for reverse proxy, load balancer, and SSL Termination.
-\item Creating custom wordpress themes to suit the needs of clients.
-\end{rSubsection}
-\end{rSection}
-
-\begin{rSection}{Technical Tools and Software}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Configuration management & Ansible\\
-Container orchestration & Kubernetes\\
-Cloud Technologies & AWS and DigitalOcean\\
-Languages& Javascript and Shell scripting\\
-Databases & MySql, and Monogodb \\
-Version Control & Git\\
-\end{tabular}
-\end{rSection}
+\justify
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+\vspace{0.2cm}
 
 
-\begin{rSection}{Certifications}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-freeCodeCamp  & Javascript\\
-NodeSchool & Node.js\\
-\end{tabular}
-\end{rSection}
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  First 2 Lines
+%%%%%%% --------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-South Thames College &  Diploma, Information Technology \\
-\end{tabular}
-\end{rSection}
+Date: \today \par \vspace{-0.1cm}
+whom this may concern, 
+
+I was excited to see this opportunity, as I believe I am a great fit for the role. 
+
+My time at MicrometreUK has given me the experience and learning opportunities needed to succeed. 
+While there, I Managed a \par
+AWS environments, 
+in Ansible, Docker, 
+will be a valuable asset to the company, 
+You can review my attached resume.
+
+Please, don't hesitate to get in touch and schedule and interview if my skills and expertise interest you.
+
+Thank you for your time and consideration of me as a candidate . I look forward to learning more about River Tech and its clients.
+
+
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  SIGNATURE
+%%%%%%% --------------------------------------------------------------------------------------
+
+\vspace{0.5cm}
+\raggedright
+Yours Faithfully \\ John Snow \\ (xxx)-xxx-xxxx \\ \href{mailto:youremail@email.com}{youremail@email.com}
+
 \end{document}
