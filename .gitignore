@@ -1,9 +1,3 @@
-node_modules
-package-lock.json
+resume.aux
+resume.log
 env
-*.aux
-*.log
-*.out
-*.main.aux
-*.main.log
-*.main.out
