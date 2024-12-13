@@ -1,48 +1,43 @@
 \documentclass{article}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
 \usepackage{hyperref} 
+\usepackage{sectsty}
+\usepackage{enumitem}
 
+\sectionfont{\fontsize{10}{15}\selectfont}
 
 \begin{document}
 
 \begin{center}
-\textbf{\Huge HENOK WEHIBE} 
-
+\textbf{\huge HENOK WEHIBE} \\
 \vspace{1.5em}
-
-\href{mailto:henokwehibe@gmail.com}{henokwehibe@gmail.com} 
-
+\href{mailto:henokwehibe@gmail.com}{henokwehibe@gmail.com} \\
 \vspace{0.5em}
-
-\href{https://github.com/micrometre}{Github: https://github.com/micrometre }
-
+\href{https://github.com/micrometre}{https://github.com/micrometre }\\
 \vspace{0.5em}
-
-\href{https://www.linkedin.com/in/henokwehibe}{LinkedIn: https://www.linkedin.com/in/henokwehibe}
-
+\href{https://www.linkedin.com/in/henokwehibe}{https://www.linkedin.com/in/henokwehibe}
 \end{center}
 
-\vspace{0.1em}
 
-
-\section{Top-Level Item}
-
-\subsection{Sub-Item 1}
+\section* {WORK EXPERINCE}
+\vspace{-0.6em}
+\hrule 
+\vspace{0.4em}
+{\bf}MicrometeUK \hfill {} \\% Bold company name and date on the right
+{\em Lead/Full stack developer} \hfill {\em 2022 - 2024 } % Italic job title and location
+\subsection*{}
+\vspace{-2.6em}
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Led the development of an Automatic Number Plate Recognition (ANPR) as a service project, encompassing  cloud infrastructure, image and video  processing, API design and  user interface development.
+\end{list}
+\vspace{-1.6em}
 \begin{itemize}
-    \item Sub-Sub-Item 1.1
-    \item Sub-Sub-Item 1.2
+    \item automated vehicle identification 
+    \item parking enforcement and data analytics
+    \item Achieved  accuracy in number plate recognition  
+    \item Reduced cost by  efficient cloud infrastructure development
 \end{itemize}
 
-\subsection{Sub-Item 2}
-\begin{enumerate}
-    \item Numbered Sub-Sub-Item 2.1
-    \item Numbered Sub-Sub-Item 2.2
-\end{enumerate}
-
-\section{Top-Level Item 2}
-\begin{itemize}
-    \item Item 2.1
-    \item Item 2.2
-\end{itemize}
 
 \end{document}
