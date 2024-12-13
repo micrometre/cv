@@ -59,6 +59,49 @@
 \end{itemize}
 
 
+
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item  Leveraged Redis with SSE(Server-Sent Events) to provide instant updates without the need for constant
+    page refreshes.
+\end{list}
+
+\vspace{-1.6em}
+\begin{itemize}
+    \item Implemented a Redis Pub/Sub channel to broadcast parking activity updates from the backend.
+    \item Developed an SSE endpoint in the Python/Flask backend to push updates to connected clients.
+    \item integrated client-side JavaScript/React  to handle incoming SSE events and update the user interface dynamically.
+\end{itemize}
+
+
+
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item  Developed cross-platform desktop applications with Electron and mobile apps with Ionic Framework, seamlessly
+    integrating them with the ANPR Flask backend.
+\end{list}
+
+\vspace{-1.6em}
+\begin{itemize}
+    \item Utilized RESTful APIs to enable communication between the Electron/Ionic apps and the Flask backend, facilitating real-time data exchange and ANPR functionality.
+    \item Leveraged Electron and Ionic to create native apps for multiple platforms (Android), expanding the reach of the ANPR service and increasing user accessibility.
+\end{itemize}
+
+
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Built a low-power SoC IoT camera using an Arduino ESP32, integrating a camera module for video
+    capture and transmission to the ANPR system
+\end{list}
+
+\vspace{-1.6em}
+\begin{itemize}
+    \item Designed the hardware and firmware for a SoC IoT camera using an ESP32 microcontroller, integrating a camera module for video capture and Wi-Fi for network connectivity.
+    \item Leveraged the ESP32's built-in Wi-Fi capabilities to enable wireless video streaming. 
+    \item Integrated the camera with a cloud platform for remote access, live streaming, and storage of video footage
+\end{itemize}
+
+
 \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
     \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
     \item Integrated real-time video streaming using FFmpeg and OpenCV into the ANPR system.
@@ -68,5 +111,7 @@
 \begin{itemize}
     \item Utilized FFmpeg and OpenCV to create a video streaming pipeline that feeds live footage into the ANPR system for immediate number plate recognition
 \end{itemize}
+
+
 
 \end{document}
