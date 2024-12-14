@@ -3,6 +3,7 @@
 \usepackage{hyperref} 
 \usepackage{sectsty}
 \usepackage{enumitem}
+\usepackage{array}% for extended column definitions    
 
 \sectionfont{\fontsize{10}{52}\selectfont}
 
@@ -70,6 +71,7 @@
 \vspace{-1.6em}
 \begin{itemize}
     \item Implemented a Redis Pub/Sub channel to broadcast parking activity updates from the backend.
+    \item Utilized Redis's HSET data structure to efficiently store and manage ANPR license plate data, enabling fast lookups and efficient data retrieval for real-time applications
     \item Developed an SSE endpoint in the Python/Flask backend to push updates to connected clients.
     \item integrated client-side JavaScript/React  to handle incoming SSE events and update the user interface dynamically.
 \end{itemize}
@@ -178,22 +180,31 @@
 
 
 
-\section* {WORK EXPERINCE}
-\vspace{-0.6em}
+\section* {TECHNICAL TOOLS AND SOFTWARE}
 \hrule 
-\vspace{0.4em}
-{\bf}{} MicrometeUK \hfill {} \\% Bold company name and date on the right
-{\em Lead/Full stack developer} \hfill {\em 2022 - 2024 } % Italic job title and location
 \subsection*{}
-\vspace{-2.6em}
-\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
-    \item Led the development of an Automatic Number Plate Recognition (ANPR) as a service project.
-\end{list}
-\vspace{-1.6em}
-\begin{itemize}
-    \item Automated vehicle identification and parking enforcement. 
-    \item Reduced cost by using cloud infrastructures. 
-\end{itemize}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+Configuration management & Ansible\\
+Container orchestration & Kubernetes\\
+Cloud Technologies & AWS and Azure \\
+Languages& Python, Javascript and Shell scripting\\
+Databases & MySql, Redis and Monogodb \\
+Version Control & Git\\
+\end{tabular}
+   
+\section* {TECHNICAL TOOLS AND SOFTWARE}
+\hrule 
+\subsection*{}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+    freeCodeCamp  & Javascript\\46
+    NodeSchool & Node.js\\
+\end{tabular}
 
+\section* {EDUCATION}
+\hrule 
+\subsection*{}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+South Thames College &  Diploma, Information 6echnology \\
+\end{tabular}
 \end{document}
+
