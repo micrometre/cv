@@ -173,10 +173,16 @@
     \item Established a private Docker Registry to securely store and manage Docker images for internal projects, ensuring controlled access and efficient distribution
     \item Implemented Nginx as a reverse proxy to handle incoming requests, caching static content, and routing traffic to appropriate backend servers.
     \item Enabled SSL termination with HAProxy and Nginx to secure web traffic and protect sensitive data.
-    \item Installed and set up Kubernetes clusters using kubeadm and Microk8s to provide a robust and scalable platform for deploying and managing containerized applications.
     \item Developed an Ansible role that automates the installation and configuration of WireGuard, enabling rapid and secure deployment of VPN servers and clients.
     \item Implemented Fail2ban to protect critical services (SSH, WordPress, Gitea) from brute-force attacks.
-    \item Integrated Monit, crontab, and Git to create a comprehensive monitoring system. Monit actively monitors system resources and services, crontab schedules regular checks, and Git tracks configuration changes for auditing and rollback capabilities.
+    \item Integrated Monit, Crontab, and Git to create a comprehensive monitoring system.\\
+     Monit actively monitors system resources and services.\\
+     crontab schedules regular checks.  \\
+     Git tracks configuration changes for auditing and rollback capabilities.
+    \item Installed and set up Kubernetes clusters using kubeadm and Microk8s for deploying and managing containerized applications.\\
+    Configured network plugins Calico and Flannel to enable communication between pods and services within the Kubernetes cluster. \\
+    Deployed Nginx Ingress Controller on Kubernetes and configured it with Let's Encrypt certificates using Cert-Manager, enabling secure HTTPS access to applications\\
+    Reduced Docker image build times and cost by implementing a private registry. 
 \end{itemize}
 
 
@@ -208,8 +214,11 @@ Testing Framework & Cypress
 \end{tabular}
 \section* {EDUCATION}
 \hrule 
+{\em South Thames College} \hfill {\em 1993 - 1997  } \\% Italic job title and location
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
-South Thames College &  Diploma, Information 6echnology \\
+Diploma, Information technology \\
+GCSE in Triple Science in Biology, Chemistry, and Physics \\
+GCSE in English, and Maths \\
 \end{tabular}
 \end{document}
 
