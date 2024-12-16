@@ -28,17 +28,22 @@
 \begin{enumerate}
   \item [] Led the development of an Automatic Number Plate Recognition (ANPR) as a service project.
    \begin{itemize}
-   \item Automated the manual data entry of number plate presence, eliminating human error and significantly improving efficiency.
-   \item Developed a system that automates vehicle identification and parking enforcement by integrating ANPR technology with existing parking management software.
-    \item Reduced infrastructure costs by  by migrating on-premises servers to AWS cloud services, leveraging EC2 instances for compute, S3 for storage, and RDS for databases.
+   \item Automated vehicle identification and parking enforcement. 
+    \item Reduced cost by using cloud infrastructures.
+     \begin{description}
+     \item[Caveat!] 
+     \end{description}
    \end{itemize}
 \end{enumerate}
 \vspace{-1.6em}
 \begin{enumerate}
     \item[] Designed a Python/Flask backend with Redis and a React frontend. 
    \begin{itemize}
+    \item Developed a new user interface with React, enhancing user experience and responsiveness.
     \item Integrated the React frontend with  Python/Flask backend using RESTful APIs.
-    \item Developed a  user interface with React, enhancing user experience and responsiveness.
+     \begin{description}
+     \item[Caveat!] 
+     \end{description}
    \end{itemize}
 \end{enumerate}
 
@@ -49,6 +54,9 @@
     \item Automated the deployment of the React frontend and Python/Flask backend using Ansible roles, enabling continuous integration and delivery.
     \item Eliminated manual configuration errors and ensured consistent deployments across all environments.  
     \item Increased system reliability and reduced downtime through automated configuration management with Ansible.
+     \begin{description}
+     \item[Caveat!] 
+     \end{description}
    \end{itemize}
 \end{enumerate}
 
@@ -59,93 +67,104 @@
     \item Utilized Redis's HSET data structure to efficiently store and manage ANPR license plate data, enabling fast lookups and efficient data retrieval for real-time applications
     \item Developed an SSE endpoint in the Python/Flask backend to push updates to connected clients.
     \item integrated client-side JavaScript/React  to handle incoming SSE events and update the user interface dynamically.
+      \begin{description}
+      \item[Caveat!] 
+      \end{description}
     \end{itemize}
  \end{enumerate}
 
-\begin{enumerate}
-    \item[]  Leveraged Redis with SSE(Server-Sent Events) to provide instant updates without the need for constant
-   \begin{itemize}
-    \item Implemented a Redis Pub/Sub channel to broadcast parking activity updates from the backend.
-    \item Utilized Redis's HSET data structure to efficiently store and manage ANPR license plate data, enabling fast lookups and efficient data retrieval for real-time applications
-    \item Developed an SSE endpoint in the Python/Flask backend to push updates to connected clients.
-    \item integrated client-side JavaScript/React  to handle incoming SSE events and update the user interface dynamically.
-   \end{itemize}
-\end{enumerate}
 
 
-\begin{enumerate}
-    \item[] Utilized pandas to clean and process ANPR data,  removing duplicates, correcting errors, and standardizing formats for subsequent analysis
-   \begin{itemize}
+
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Utilized pandas to clean and process ANPR data,  removing duplicates, correcting errors, and standardizing formats for subsequent analysis
+\end{list}
+\vspace{-1.6em}
+\begin{itemize}
     \item Improved the accuracy of ANPR data analysis by  cleaning and processing the data with pandas. 
     \item Facilitated data sharing  by exporting processed ANPR data to CSV, Excel, and JSON formats using pandas.
-   \end{itemize}
-\end{enumerate}
+\end{itemize}
 
 
-\begin{enumerate}
-    \item[]  Developed cross-platform desktop applications with Electron and mobile apps with Ionic Framework, seamlessly
-   \begin{itemize}
+
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item  Developed cross-platform desktop applications with Electron and mobile apps with Ionic Framework, seamlessly
+    integrating them with the ANPR Flask backend.
+\end{list}
+
+\vspace{-1.6em}
+\begin{itemize}
     \item Utilized RESTful APIs to enable communication between the Electron/Ionic apps and the Flask backend, facilitating real-time data exchange and ANPR functionality.
     \item Leveraged Electron and Ionic to create native apps for multiple platforms (Android), expanding the reach of the ANPR service and increasing user accessibility.
-   \end{itemize}
-\end{enumerate}
+\end{itemize}
 
 
-\begin{enumerate}
-    \item[] Built a low-power SoC IoT camera using an Arduino ESP32, integrating a camera module for video
-   \begin{itemize}
+
+
+
+
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Built a low-power SoC IoT camera using an Arduino ESP32, integrating a camera module for video
+    capture and transmission to the ANPR system
+\end{list}
+
+\vspace{-1.6em}
+\begin{itemize}
     \item Designed the hardware and firmware for a SoC IoT camera using an ESP32 microcontroller, integrating a camera module for video capture and Wi-Fi for network connectivity.
     \item Leveraged the ESP32's built-in Wi-Fi capabilities to enable wireless video streaming. 
     \item Integrated the camera with a cloud platform for remote access, live streaming, and storage of video footage
-   \end{itemize}
-\end{enumerate}
+\end{itemize}
 
 
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Integrated real-time video streaming using FFmpeg and OpenCV into the ANPR system, enabling continuous monitoring and analysis of vehicle traffic.
+    
+\end{list}
 
-\begin{enumerate}
-    \item[] Integrated real-time video streaming using FFmpeg and OpenCV into the ANPR system, enabling continuous monitoring and analysis of vehicle traffic.
-   \begin{itemize}
+\vspace{-1.6em}
+\begin{itemize}
     \item Utilized FFmpeg and OpenCV to create a video streaming pipeline that feeds live footage into the ANPR system for immediate number plate recognition
     \item Leveraged FFmpeg to efficiently encode and stream video data from the ESP32 camera to the ANPR system, minimizing latency and bandwidth consumption
-   \end{itemize}
-\end{enumerate}
-
-
-
+\end{itemize}
 
 \vspace{1.4em}
 \hrule 
 \vspace{0.4em}
+
 \hspace{-2.em}
 {\bf}Freelance/Self Employed  \hfill {} \\% Bold company name and date on the right
 {\em Web Developer } \hfill {\em 2020 - 2022 } % Italic job title and location
 \subsection*{}
 \vspace{-2.6em}
-
-\begin{enumerate}
-    \item[] Developed e-commerce websites, landing pages, and blogs for clients across various industries leveraging WordPress and React.
-   \begin{itemize}
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Developed e-commerce websites, landing pages, and blogs for clients across various industries leveraging WordPress and React.
+\end{list}
+\vspace{-1.6em}
+\begin{itemize}
     \item Provided a comprehensive suite of services, including domain registration, email hosting, website design and development, and ongoing website maintenance.
     \item Offered custom website solutions tailored to clients' needs, from initial concept and design to development, deployment, and search engine optimization.
     \item Improved website loading speeds  by utilizing Edge Computing Hosting and optimizing website performance.
     \item Performed comprehensive website audits encompassing performance, accessibility, best practices, and SEO, utilizing tools like Google Lighthouse.
     \item Implemented features like store locators, custom map markers, and dynamic zoom levels using the Google Maps API within the WordPress theme.
-   \end{itemize}
-\end{enumerate}
+\end{itemize}
 
 
-
-\vspace{1.4em}
-\hrule 
-\vspace{0.4em}
 \hspace{-2.em}
 {\bf}Projects  \hfill {} \\% Bold company name and date on the right
 {\em } \hfill {\em 2017 - 2020 } % Italic job title and location
-
-
-\begin{enumerate}
+\subsection*{}
+\vspace{-2.6em}
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
     \item Customized Debian/Linux distributions to create specialized versions for desktops, laptops, and servers, including pre-installed software  and custom branding
-   \begin{itemize}
+\end{list}
+\vspace{-1.6em}
+\begin{itemize}
     \item Utilized remastering tools and scripts to create customized Debian/Linux distributions.
     \item Manually configured and optimized Debian/Linux distributions to meet specific performance and security requirements for desktops, laptops, and servers.
     \item Built custom images using Packer to create consistent and reproducible development and testing environments, eliminating configuration inconsistencies.
@@ -164,8 +183,8 @@
     Configured network plugins Calico and Flannel to enable communication between pods and services within the Kubernetes cluster. \\
     Deployed Nginx Ingress Controller on Kubernetes and configured it with Let's Encrypt certificates using Cert-Manager, enabling secure HTTPS access to applications\\
     Reduced Docker image build times and cost by implementing a private registry. 
-   \end{itemize}
-\end{enumerate}
+\end{itemize}
+
 
 
 \section* {TECHNICAL TOOLS AND SOFTWARE}
@@ -205,6 +224,29 @@ GCSE  Triple Science in Biology, Chemistry, and Physics \\
 GCSE  English, and Maths \\
 \end{tabular}
 
+\begin{enumerate}
+  \item []Topic
+  \begin{enumerate}[label*=\arabic*.]
+    \item []First Subtopic
+    \begin{enumerate}[label*=\arabic*.]
+      \item[] First Sub-Subtopic
+    \end{enumerate}
+  \end{enumerate}
+\end{enumerate}
+
+
+\begin{enumerate}
+   \item The labels consists of sequential numbers
+   \begin{itemize}
+     \item The individual entries are indicated with a black dot, a so-called bullet
+     \item The text in the entries may be of any length
+     \begin{description}
+     \item[Note:] I would like to describe something here
+     \item[Caveat!] And give a warning here
+     \end{description}
+   \end{itemize}
+   \item The numbers starts at 1 with each use of the \texttt{enumerate} environment
+\end{enumerate}
 
 
 \end{document}
