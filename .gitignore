@@ -1,5 +1,8 @@
 *.aux
 *.log
 *.out
-*.swap
+*.tex.swp
 env
+*.fdb_latexmk
+*.fls
+*.synctex.gz
