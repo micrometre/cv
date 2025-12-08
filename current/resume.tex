@@ -26,17 +26,26 @@ London, United Kingdom \\
 {\bf}{} MicrometreUK \hfill {} \\% Bold company name and date on the right
 {\em Lead/Full Stack Developer} \hfill {\em 2022 - Present } % Italic job title and location
 
-Lead development of an Automatic Number Plate Recognition (ANPR) system as a service (\href{https://microanpr.com}{microanpr.com}). 
-Automated manual data entry of vehicle presence, eliminating human error.
-Spearheaded migration of on-premises servers to AWS cloud, leveraging EC2 and S3 for a substantial reduction in infrastructure costs.
+Architected and built \href{https://microanpr.com}{MicroANPR.com}, a cloud-native, multi-tenant SaaS platform for Automatic Number Plate Recognition (ANPR). Designed API-first architecture supporting parking operators, gated communities, fleet management, and retail car parks. Achieved 97\%+ accuracy on UK license plates with flexible deployment options (fully managed, self-hosted, or hybrid edge/cloud).
 
 
 
 \begin{enumerate}
-    \item[] Developed Computer Vision pipeline using PaddleDetection, PyTorch, and OpenCV for license plate recognition.
+    \item[] Built high-performance Go backend with Gin framework for concurrent processing of multiple camera streams.
+   \begin{itemize}
+    \item Leveraged goroutines to handle thousands of concurrent camera connections with low memory footprint.
+    \item Designed multi-tenant architecture with PostgreSQL, supporting group-based access control and per-tenant isolation.
+    \item Implemented REST API with webhook support for seamless integration with third-party systems.
+    \item Deployed using Docker and Ansible for reproducible, scalable infrastructure with Cloudflare CDN.
+   \end{itemize}
+\end{enumerate}
+
+
+\begin{enumerate}
+    \item[] Developed Computer Vision pipeline using PaddleDetection and PaddleOCR optimized for UK plates.
    \begin{itemize}
     \item Built image preprocessing pipeline with OpenCV for noise reduction, contrast enhancement, and edge detection.
-    \item Implemented deep learning models for accurate plate detection and character recognition.
+    \item Implemented deep learning models supporting all UK plate formats (post-2001, prefix, suffix, dateless).
     \item Created comprehensive technical documentation and tutorial series on ANPR implementation.
    \end{itemize}
 \end{enumerate}
@@ -61,11 +70,11 @@ Spearheaded migration of on-premises servers to AWS cloud, leveraging EC2 and S3
 \end{enumerate}
 
 \begin{enumerate}
-    \item[]  Leveraged Redis with SSE(Server-Sent Events) to provide instant updates without the need for constant
+    \item[] Implemented real-time streaming dashboard with Server-Sent Events (SSE) for instant plate detection updates.
     \begin{itemize}
-    \item Implemented a Redis Pub/Sub channel to broadcast parking activity updates from the backend.
-    \item Developed an SSE endpoint in the Python/Flask backend to push updates to connected clients.
-    \item integrated client-side JavaScript/React  to handle incoming SSE events and update the user interface dynamically.
+    \item Built SSE endpoints in Go/Gin for zero-latency push notifications to connected clients.
+    \item Integrated Redis Pub/Sub for broadcasting parking activity updates across distributed instances.
+    \item Developed Next.js frontend dashboard with real-time data visualization and tariff calculation.
     \end{itemize}
  \end{enumerate}
 
@@ -110,31 +119,11 @@ Spearheaded migration of on-premises servers to AWS cloud, leveraging EC2 and S3
 
 
 
-\vspace{1.4em}
+
+
+\vspace{6.9em}
 \hrule 
-\vspace{0.4em}
-\hspace{-2.em}
-{\bf}Freelance/Self Employed  \hfill {} \\% Bold company name and date on the right
-{\em Full Stack Web Developer } \hfill {\em 2020 - 2022 } % Italic job title and location
-\subsection*{}
-\vspace{-2.6em}
-
-\begin{enumerate}
-    \item[] Developed e-commerce websites, landing pages, and blogs for clients across various industries.
-   \begin{itemize}
-    \item Built custom solutions using WordPress, React, and Next.js from initial concept to deployment.
-    \item Provided domain registration, email hosting, website design, and ongoing maintenance services.
-    \item Improved website performance using Edge Computing and optimization techniques.
-    \item Conducted comprehensive audits for performance, accessibility, and SEO using Google Lighthouse.
-    \item Implemented custom features including store locators and interactive maps using Google Maps API.
-   \end{itemize}
-\end{enumerate}
-
-
-
-\vspace{1.4em}
-\hrule 
-\vspace{0.4em}
+\vspace{6.4em}
 \hspace{-2.em}
 {\bf Projects } \hfill {\em 2020 - Present } % Italic job title and location
 
@@ -176,18 +165,47 @@ Spearheaded migration of on-premises servers to AWS cloud, leveraging EC2 and S3
 \end{enumerate}
 
 
+\vspace{4.4em}
+\vspace{0.4em}
+\hspace{-2.em}
+{\bf}Freelance/Self Employed  \hfill {} \\% Bold company name and date on the right
+{\em Full Stack Web Developer } \hfill {\em 2020 - 2022 } % Italic job title and location
+\subsection*{}
+\vspace{1.6em}
+
+\begin{enumerate}
+    \item[] Developed e-commerce websites, landing pages, and blogs for clients across various industries.
+   \begin{itemize}
+    \item Built custom WordPress themes and React/Next.js applications from initial concept to deployment.
+    \item Delivered end-to-end solutions: domain registration, email hosting, SSL certificates, and ongoing maintenance.
+    \item Achieved significant performance improvements using Edge Computing (Cloudflare, Vercel) and code optimization.
+    \item Conducted comprehensive audits for performance, accessibility, and SEO.
+   \end{itemize}
+\end{enumerate}
+
+\begin{enumerate}
+    \item[] Built custom web applications and business tools for small businesses.
+   \begin{itemize}
+    \item Implemented store locators, interactive maps, and custom features using Google Maps API.
+    \item Configured hosting infrastructure with Nginx, SSL termination, and automated deployments.
+   \end{itemize}
+\end{enumerate}
+
+
+
+
 \section* {TECHNICAL SKILLS}
 \hrule 
 \subsection*{}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
-Languages & Python, JavaScript/TypeScript, Golang \\
+Languages & Go, Python, JavaScript/TypeScript \\
 Frontend & React, Next.js, Astro, Tailwind CSS, Framer Motion \\
-Backend & Flask, Node.js, Express, REST APIs \\
-Computer Vision & PyTorch, TensorFlow, OpenCV, PaddleDetection \\
+Backend & Gin (Go), Flask, Node.js, Express, REST APIs, SSE \\
+Computer Vision & PaddleDetection, PaddleOCR, PyTorch, TensorFlow, OpenCV \\
 AI/ML & WebLLM, RAG, Ollama, Embeddings \\
-Databases & MySQL, Redis, MongoDB, SQLite (WASM) \\
-Cloud Platforms & AWS, Google Cloud Platform, Microsoft Azure \\
-DevOps & Ansible, Docker, Kubernetes, Nginx, HAProxy \\
+Databases & PostgreSQL, MySQL, Redis, MongoDB, SQLite (WASM) \\
+Cloud Platforms & AWS, Google Cloud Platform, Microsoft Azure, Cloudflare \\
+DevOps & Docker, Ansible, Kubernetes, Nginx, HAProxy \\
 Tools & Git, Packer, Vagrant, FFmpeg \\
 \end{tabular}
    
