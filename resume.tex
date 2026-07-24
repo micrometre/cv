@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage[left=0.75in,top=0.8in,right=0.75in,bottom=0.6in]{geometry} 
+\usepackage{hyperref} 
+\usepackage{sectsty}
+\usepackage{enumitem}
+\usepackage{array}% for extended column definitions    
+
+\sectionfont{\fontsize{10}{52}\selectfont}
+
+\begin{document}
+
+\begin{center}
+\textbf{\huge HENOK WEHIBE} \\
+\vspace{1.0em}
+London, United Kingdom \\
+\vspace{0.5em}
+\href{mailto:henokwehibe@gmail.com}{henokwehibe@gmail.com} $|$
+\href{https://linkedin.com/in/henokwehibe}{linkedin.com/in/henokwehibe} $|$
+\href{https://github.com/micrometre}{github.com/micrometre} $|$
+\href{https://henok.cloud}{henok.cloud}\\
+\end{center}
+\vspace{-3.6em}
+\section* {WORK EXPERIENCE}
+\vspace{0.6em}
+\hrule 
+\vspace{0.6em}
+{\bf}{} MicrometreUK \hfill {} \\% Bold company name and date on the right
+{\em Lead/Full Stack Developer} \hfill {\em 2022 - Present } % Italic job title and location
+
+Architected and built \href{https://microanpr.com}{MicroANPR.com}, an end-to-end cloud-native and edge Automatic Number Plate Recognition (ANPR) ecosystem. Designed an API-first multi-tenant architecture supporting parking operators, gated communities, fleet management, and retail car parks. Achieved 97\%+ accuracy on UK license plates with ISO/IEC 27001, 27701, and 25010 compliant deployments spanning bare-metal servers, desktop operator stations, and mobile edge AI devices.
+
+\begin{itemize}[leftmargin=1.5em, itemsep=0.4em]
+    \item \textbf{Core API Engine \& Asynchronous Backend (FastAPI / PostgreSQL):} Engineered asynchronous Python/FastAPI backend with SQLAlchemy and PostgreSQL for real-time video job processing, resident/visitor permit tracking, structured JSON security audit logging (\texttt{SecurityEventLogger}), and multi-format automated reporting (JSON, CSV, PDF, ZIP archives).
+    \item \textbf{Computer Vision \& Deep Learning Pipeline:} Built real-time video stream recognition engine using OpenCV and TensorFlow Hub deep learning models (Faster R-CNN, OCR) supporting all UK plate formats with character bounding-box extraction, confidence scoring, and automated permit verification.
+    \item \textbf{Edge AI Mobile Camera Application (Flutter / TFLite):} Developed Flutter mobile app for real-time on-device vehicle localization and classification directly on raw camera frame buffers using Google ML Kit Vision and custom quantized EfficientNetB0 TFLite models. Integrated Android Scoped Storage (\texttt{MediaStore} API) for zero-permission media exports.
+    \item \textbf{Cross-Platform Operator Client (Tauri 2 / Rust):} Built cross-platform desktop and mobile operator client using Tauri v2 (Rust + HTML5/Tailwind) featuring strict Rust capability sandboxing (\texttt{capabilities/default.json}) and automated cross-compilation for Linux (\texttt{.deb}, AppImage), Windows (\texttt{.exe} via MinGW/NSIS), and Android (\texttt{.apk}).
+    \item \textbf{Infrastructure-as-Code \& DevSecOps (Ansible / Docker):} Created Ansible playbooks for automated bare-metal host provisioning, SSH hardening, Fail2ban intrusion defense monitoring Docker Nginx logs, non-root container isolation (\texttt{APP\_UID}/\texttt{APP\_GID}), systemd service auto-recovery daemons, and automated disaster recovery (\texttt{backup-restore.sh}).
+    \item \textbf{Real-Time Notifications \& High-Performance Stream Ingestion:} Implemented Go/Gin microservices and Server-Sent Events (SSE) for zero-latency push notifications to client dashboards, utilizing Redis Pub/Sub for broadcasting parking activity updates across distributed instances.
+\end{itemize}
+
+\vspace{1.5em}
+\hrule 
+\vspace{1.0em}
+{\bf Projects } \hfill {\em 2020 - Present } % Italic job title and location
+
+\begin{enumerate}[leftmargin=1.5em, itemsep=0.5em]
+    \item \textbf{Browser-Based AI Chat (WebLLM)} - Built a 100\% client-side AI chat application using WebLLM and WebGPU with zero server dependencies.
+   \begin{itemize}
+    \item Implemented WebGPU for hardware-accelerated AI inference directly in the browser.
+    \item Demonstrated modern JavaScript and AI/ML integration techniques.
+   \end{itemize}
+
+    \item \textbf{Daily Cashier} - Privacy-first sales management system using WebAssembly and SQLite.
+   \begin{itemize}
+    \item Built offline-first application with OPFS (Origin Private File System) for persistent client-side storage.
+    \item Developed with Next.js and SQLite WASM, requiring zero server dependencies.
+   \end{itemize}
+
+    \item \textbf{RAG Quiz System} - Retrieval-Augmented Generation implementation using Ollama.
+   \begin{itemize}
+    \item Integrated embeddings and language models for intelligent question-answering.
+    \item Built with Python for backend processing and vector storage.
+   \end{itemize}
+
+    \item \textbf{DevOps \& Infrastructure Projects}
+   \begin{itemize}
+    \item Developed Ansible roles for automated WireGuard VPN deployment and event-driven infrastructure.
+    \item Configured Kubernetes clusters (kubeadm, Microk8s) with Calico/Flannel networking and Nginx Ingress.
+    \item Built custom Debian/Linux distributions using Packer for consistent development environments.
+    \item Set up private Docker Registry and Gitea instances on AWS, Azure, and GCP.
+    \item Implemented Nginx/HAProxy reverse proxy with SSL termination and Fail2ban security.
+    \item Created monitoring systems with Monit, Crontab, and Git for configuration tracking.
+   \end{itemize}
+\end{enumerate}
+
+\vspace{1.0em}
+{\bf}Freelance/Self Employed  \hfill {} \\
+{\em Full Stack Web Developer } \hfill {\em 2020 - 2022 } 
+
+\begin{itemize}[leftmargin=1.5em, itemsep=0.4em]
+    \item Developed e-commerce websites, landing pages, and custom web applications for clients using React, Next.js, and WordPress.
+    \item Delivered end-to-end solutions including domain registration, hosting configuration, SSL termination, and ongoing maintenance.
+    \item Conducted comprehensive performance, accessibility, and SEO audits, leveraging Cloudflare and Vercel edge networks.
+\end{itemize}
+
+\vspace{1.0em}
+\section* {TECHNICAL SKILLS}
+\hrule 
+\vspace{0.6em}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+Languages & Python, Go, Rust, Dart, JavaScript/TypeScript, SQL, Bash \\
+Frontend & React, Next.js, Flutter, HTML5/CSS3, Tailwind CSS, Astro \\
+Backend & FastAPI, Gin (Go), Flask, Node.js, REST APIs, WebSockets, SSE \\
+AI/ML \& Vision & TensorFlow (Faster R-CNN, TFLite), Google ML Kit, OpenCV, PaddleOCR \\
+Databases & PostgreSQL, MySQL, Redis, MongoDB, SQLite (WASM) \\
+DevOps \& Cloud & Ansible, Docker, Kubernetes, Nginx, Fail2ban, Systemd, AWS, GCP, Cloudflare \\
+Tools \& Build & Tauri, Git, Packer, Vagrant, FFmpeg, Make, MinGW, NSIS \\
+\end{tabular}
+   
+\vspace{1.4em}
+\section* {CERTIFICATIONS}
+\hrule 
+\vspace{0.6em}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{9ex}} l l }
+ FreeCodeCamp & Responsive Web Design  \\
+ FreeCodeCamp & JavaScript Algorithms and Data Structures \\
+\end{tabular}
+
+\vspace{1.4em}
+\section* {EDUCATION}
+\hrule 
+\vspace{0.6em}
+{\em South Thames College} \hfill {\em London, UK  } \\
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
+Diploma & Information Technology \\
+GCSE  & Triple Science (Biology, Chemistry, Physics), English, Maths \\
+\end{tabular}
+
+\end{document}
