@@ -23,96 +23,38 @@ London, United Kingdom \\
 \section* {WORK EXPERIENCE}
 \vspace{0.6em}
 \hrule 
-{\bf}{} MicrometreUK \hfill {} \\% Bold company name and date on the right
-{\em Lead/Full Stack Developer} \hfill {\em 2022 - Present } % Italic job title and location
+{\bf}{} FastAPI-Based ANPR System \hfill {} \\
+{\em Systems Architect \& Developer} \hfill {\em 2024–Present} % Italic job title and location
 
-Architected and built \href{https://microanpr.com}{MicroANPR.com}, a cloud-native, multi-tenant SaaS platform for Automatic Number Plate Recognition (ANPR). Designed API-first architecture supporting parking operators, gated communities, fleet management, and retail car parks. Achieved 97\%+ accuracy on UK license plates with flexible deployment options (fully managed, self-hosted, or hybrid edge/cloud).
-
-
-
+Architected and delivered a secure, self-hosted Automatic Number Plate Recognition (ANPR) platform with hybrid edge/cloud processing, production deployment automation, and real-time analytics for parking, access control, and fleet monitoring.
 \begin{enumerate}
-    \item[] Built high-performance Go backend with Gin framework for concurrent processing of multiple camera streams.
+    \item[] Built the application and infrastructure layer for video ingestion, plate recognition, permit validation, job tracking, and reporting.
    \begin{itemize}
-    \item Leveraged goroutines to handle thousands of concurrent camera connections with low memory footprint.
-    \item Designed multi-tenant architecture with PostgreSQL, supporting group-based access control and per-tenant isolation.
-    \item Implemented REST API with webhook support for seamless integration with third-party systems.
-    \item Deployed using Docker and Ansible for reproducible, scalable infrastructure with Cloudflare CDN.
+    \item Designed FastAPI services for real-time ANPR processing, event-driven workflows, authenticated APIs, and operational dashboards.
+    \item Engineered hybrid OCR pipelines combining edge/mobile inference with cloud verification to improve latency and accuracy for live deployments.
+    \item Curated model/data workflows for dataset preparation, training validation, and performance tuning across UK registration plate formats.
+    \item Automated secure deployments with Docker, Ansible, Linux hardening, and operational monitoring for production environments.
+    \item Developed comprehensive Ansible infrastructure automation for AWS EC2/Lightsail provisioning, server configuration, and application deployment with 15+ roles.
+    \item Built Flutter mobile applications (ANPR Edge OCR \& Hybrid OCR) for on-device vehicle detection and license plate recognition using Google ML Kit and TFLite.
+    \item Implemented offline SQLite queueing with automatic sync, on-device plate cropping, and real-time streaming to FastAPI backend.
+    \item Created security testing harness with pytest for defensive security validation including TLS enforcement, authentication, and upload validation.
+    \item Deployed production monitoring with Monit, Fail2ban, logrotate, and PAM-based login alerts for operational visibility.
    \end{itemize}
 \end{enumerate}
 
+\vspace{1.5em}
+{\bf}{} MicrometreUK \hfill {} \\
+{\em Lead / Full-Stack Developer} \hfill {\em 2022–2024} % Italic job title and location
+
+Led the design and delivery of \href{https://microanpr.com}{MicroANPR.com}, a cloud-native, multi-tenant ANPR SaaS platform for parking operators, gated communities, fleet management, and retail car parks. Built the product from concept through production, spanning backend services, frontend dashboards, ML pipelines, and DevOps automation.
 
 \begin{enumerate}
-    \item[] Developed Computer Vision pipeline using PaddleDetection and PaddleOCR optimized for UK plates.
+    \item[] Built the core platform for concurrent camera streams, multi-tenant operations, secure API integrations, and live reporting.
    \begin{itemize}
-    \item Built image preprocessing pipeline with OpenCV for noise reduction, contrast enhancement, and edge detection.
-    \item Implemented deep learning models supporting all UK plate formats (post-2001, prefix, suffix, dateless).
-    \item Created comprehensive technical documentation and tutorial series on ANPR implementation.
-   \end{itemize}
-\end{enumerate}
-
-
-\begin{enumerate}
-    \item[] Designed a Python/Flask backend with Redis and a React frontend. 
-   \begin{itemize}
-    \item Integrated the React frontend with Python/Flask backend using RESTful APIs.
-    \item Developed responsive user interface with React, enhancing user experience.
-   \end{itemize}
-\end{enumerate}
-
-
-\begin{enumerate}
-    \item[] Developed Ansible roles to automate deployment across multiple environments.
-   \begin{itemize}
-    \item Automated the deployment of the React frontend and Python/Flask backend using Ansible roles, enabling continuous integration and delivery.
-    \item Eliminated manual configuration errors and ensured consistent deployments across all environments.  
-    \item Increased system reliability and reduced downtime through automated configuration management with Ansible.
-   \end{itemize}
-\end{enumerate}
-
-\begin{enumerate}
-    \item[] Implemented real-time streaming dashboard with Server-Sent Events (SSE) for instant plate detection updates.
-    \begin{itemize}
-    \item Built SSE endpoints in Go/Gin for zero-latency push notifications to connected clients.
-    \item Integrated Redis Pub/Sub for broadcasting parking activity updates across distributed instances.
-    \item Developed Next.js frontend dashboard with real-time data visualization and tariff calculation.
-    \end{itemize}
- \end{enumerate}
-
-
-\begin{enumerate}
-    \item[] Utilized pandas to clean and process ANPR data,  removing duplicates, correcting errors, and standardizing formats for subsequent analysis
-   \begin{itemize}
-    \item Improved the accuracy of ANPR data analysis by  cleaning and processing the data with pandas. 
-    \item Facilitated data sharing  by exporting processed ANPR data to CSV, Excel, and JSON formats using pandas.
-   \end{itemize}
-\end{enumerate}
-
-
-\begin{enumerate}
-    \item[]  Developed cross-platform desktop applications with Electron and mobile apps with Ionic Framework, seamlessly
-   \begin{itemize}
-    \item Utilized RESTful APIs to enable communication between the Electron/Ionic apps and the Flask backend, facilitating real-time data exchange and ANPR functionality.
-    \item Leveraged Electron and Ionic to create native apps for multiple platforms (Android), expanding the reach of the ANPR service and increasing user accessibility.
-   \end{itemize}
-\end{enumerate}
-
-
-\begin{enumerate}
-    \item[] Built a low-power SoC IoT camera using an Arduino ESP32, integrating a camera module for video
-   \begin{itemize}
-    \item Designed the hardware and firmware for a SoC IoT camera using an ESP32 microcontroller, integrating a camera module for video capture and Wi-Fi for network connectivity.
-    \item Leveraged the ESP32's built-in Wi-Fi capabilities to enable wireless video streaming. 
-    \item Integrated the camera with a cloud platform for remote access, live streaming, and storage of video footage
-   \end{itemize}
-\end{enumerate}
-
-
-
-\begin{enumerate}
-    \item[] Integrated real-time video streaming using FFmpeg and OpenCV into the ANPR system, enabling continuous monitoring and analysis of vehicle traffic.
-   \begin{itemize}
-    \item Utilized FFmpeg and OpenCV to create a video streaming pipeline that feeds live footage into the ANPR system for immediate number plate recognition
-    \item Leveraged FFmpeg to efficiently encode and stream video data from the ESP32 camera to the ANPR system, minimizing latency and bandwidth consumption
+    \item Implemented high-throughput Go services with Gin and PostgreSQL to process thousands of concurrent camera streams with low memory overhead.
+    \item Designed multi-tenant access control, webhook integrations, and dashboard APIs for real-time parking operations and fleet workflows.
+    \item Developed the computer vision pipeline with OpenCV, PaddleDetection, and PaddleOCR for UK plate recognition and data preprocessing.
+    \item Deployed and automated production infrastructure using Docker, Ansible, Nginx, Cloudflare, and Linux security hardening.
    \end{itemize}
 \end{enumerate}
 
@@ -125,7 +67,7 @@ Architected and built \href{https://microanpr.com}{MicroANPR.com}, a cloud-nativ
 \hrule 
 \vspace{6.4em}
 \hspace{-2.em}
-{\bf Projects } \hfill {\em 2020 - Present } % Italic job title and location
+{\bf Projects } \hfill % Italic job title and location
 
 
 \begin{enumerate}
@@ -153,6 +95,22 @@ Architected and built \href{https://microanpr.com}{MicroANPR.com}, a cloud-nativ
 \end{enumerate}
 
 \begin{enumerate}
+    \item \textbf{Gemma Web \& Semantic Quiz} - In-browser implementation of Google Gemma AI and quiz systems using WebGPU and Transformers.js.
+   \begin{itemize}
+    \item Built client-side intelligent quiz systems that grade answers using semantic similarity.
+    \item Showcased advanced ML deployment by running models entirely in the browser, reducing server costs to zero.
+   \end{itemize}
+\end{enumerate}
+
+\begin{enumerate}
+    \item \textbf{AI-Powered Smart Cameras} - IoT computer vision solutions (Smart Camera, Plants Camera).
+   \begin{itemize}
+    \item Developed edge pipelines for real-time object detection and tracking plant health, growth, and environmental factors.
+    \item Engineered solutions for continuous video processing and ultra-low framerate capture.
+   \end{itemize}
+\end{enumerate}
+
+\begin{enumerate}
     \item \textbf{DevOps \& Infrastructure Projects}
    \begin{itemize}
     \item Developed Ansible roles for automated WireGuard VPN deployment and event-driven infrastructure.
@@ -168,8 +126,8 @@ Architected and built \href{https://microanpr.com}{MicroANPR.com}, a cloud-nativ
 \vspace{4.4em}
 \vspace{0.4em}
 \hspace{-2.em}
-{\bf}Freelance/Self Employed  \hfill {} \\% Bold company name and date on the right
-{\em Full Stack Web Developer } \hfill {\em 2020 - 2022 } % Italic job title and location
+{\bf}Freelance/Self-Employed  \hfill {} \\% Bold company name and date on the right
+{\em Full-Stack Web Developer} \hfill {\em 2020–2022} % Italic job title and location
 \subsection*{}
 \vspace{1.6em}
 
@@ -200,9 +158,9 @@ Architected and built \href{https://microanpr.com}{MicroANPR.com}, a cloud-nativ
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{5ex}} l }
 Languages & Go, Python, JavaScript/TypeScript \\
 Frontend & React, Next.js, Astro, Tailwind CSS, Framer Motion \\
-Backend & Gin (Go), Flask, Node.js, Express, REST APIs, SSE \\
+Backend & Gin (Go), FastAPI, Node.js, Express, REST APIs, SSE \\
 Computer Vision & PaddleDetection, PaddleOCR, PyTorch, TensorFlow, OpenCV \\
-AI/ML & WebLLM, RAG, Ollama, Embeddings \\
+AI/ML & WebLLM, RAG, Ollama, Embeddings, llama.cpp \\
 Databases & PostgreSQL, MySQL, Redis, MongoDB, SQLite (WASM) \\
 Cloud Platforms & AWS, Google Cloud Platform, Microsoft Azure, Cloudflare \\
 DevOps & Docker, Ansible, Kubernetes, Nginx, HAProxy \\
